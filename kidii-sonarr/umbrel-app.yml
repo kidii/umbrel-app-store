@@ -1,0 +1,27 @@
+manifestVersion: 1.1
+id: sonarr
+name: Sonarr
+tagline: Smart PVR for newsgroup and bittorrent users
+category: media
+version: "3.0.10.1567"
+port: 8989
+description: >-
+  Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+developer: Sonarr
+website: https://sonarr.tv/
+submitter: kidii
+submission: https://github.com/getumbrel/umbrel-apps/commit/60878f278d544b204d8e7c96240c797f43a9b319
+repo: https://github.com/Sonarr/Sonarr
+support: https://github.com/Sonarr/Sonarr/issues
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+dependencies:
+  - transmission
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS

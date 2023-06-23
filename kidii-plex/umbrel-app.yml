@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: kidii-plex
+name: Plex
+tagline: Stream Movies & TV Shows
+icon: https://www.vectorlogo.zone/logos/plextv/plextv-tile.svg
+category: media
+version: "1.32.4.1"
+port: 32400
+description: >-
+  Stream movies and TV shows, plus 300+ channels of live TV, instantly, without a subscription. Watch live TV and movies anywhere, from any device, with Plex.
+
+
+  Plex uses a server to house your media library and player apps to playback the media. Add, access, and share all the entertainment that matters to you, on almost any device.
+developer: Plex
+website: https://www.plex.tv/
+submitter: kidii
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/plexinc/pms-docker
+support: https://www.plex.tv/
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  This update includes new features such as improved series and season-level preferences, increased support for different naming formats, and numerous bug fixes.
+dependencies: []
+path: /web
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
