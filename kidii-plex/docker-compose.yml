@@ -9,7 +9,7 @@ services:
       - PUID=1000
       - PGID=1000
       - VERSION=docker
-      - PLEX_CLAIM=claim-a3LapM9L8-DFocCBNHZf
+      - PLEX_CLAIM=claim-xGsr2bH_EESETz89JZ8w
     ports:
       - 32400:32400
       # Plex Companion
