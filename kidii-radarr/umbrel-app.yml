@@ -2,6 +2,7 @@ manifestVersion: 1.1
 id: kidii-radarr
 name: Radarr
 tagline: Your movie collection manager
+icon: icon.svg
 category: media
 version: "4.5.2.7388"
 port: 7878

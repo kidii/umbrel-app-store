@@ -2,6 +2,7 @@ manifestVersion: 1.1
 id: kidii-sonarr
 name: Sonarr
 tagline: Smart PVR for newsgroup and bittorrent users
+icon: icon.svg
 category: media
 version: "3.0.10.1567"
 port: 8989
