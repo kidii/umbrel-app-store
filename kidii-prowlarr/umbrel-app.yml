@@ -2,7 +2,7 @@ manifestVersion: 1
 id: kidii-prowlarr
 name: Prowlarr
 tagline: Prowlarr is an indexer manager/proxy
-icon: icon.png
+icon: https://svgshare.com/i/ueH.svg
 category: media
 version: "1.5.2"
 description: >-

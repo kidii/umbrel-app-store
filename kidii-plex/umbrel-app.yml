@@ -2,7 +2,7 @@ manifestVersion: 1
 id: kidii-plex
 name: Plex
 tagline: Stream Movies & TV Shows
-icon: icon.svg
+icon: https://svgshare.com/i/ug8.svg
 category: media
 version: "1.32.4.1"
 port: 32400
