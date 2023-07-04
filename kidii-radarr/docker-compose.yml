@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_WHITELIST: "/api/*"
 
   server:
-    image: linuxserver/radarr:version-4.5.2.7388@sha256:fb3d0308d91595f0906637a48af36ac2b40e03aa877a036fd5d63bd03faa5cf0
+    image: linuxserver/radarr:version-4.6.4.7568@sha256:49323699f717c7cd01aa5e5f1f3ba8fc856b21878ae3ba8a36afe32af4d80241
     environment:
       - PUID=1000
       - PGID=1000
