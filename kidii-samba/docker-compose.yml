@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  samba:
+  server:
     image: dperson/samba:armhf
     hostname: "kidii-samba-server_1"
     environment:
