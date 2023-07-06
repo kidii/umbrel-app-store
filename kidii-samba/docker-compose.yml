@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  samba:
+    image: dperson/samba:armhf
+    hostname: "kidii-samba-server_1"
+    command: -u "kidi;kidi" -s "media;/share;yes;no;no;" -s "public;/public;yes;no;yes"
+    environment:
+      - TZ=Europe/Budapest
+      - PUID=1000
+      - PGID=1000
+      - USERID=1000
+      - GROUPID=1000
+    restart: on-failure
+    networks:
+      - default
+    ports:
+      - "137:137/udp"
+      - "138:138/udp"
+      - "139:139/tcp"
+      - "445:445/tcp"
+    read_only: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/data/storage/downloads:/downloads

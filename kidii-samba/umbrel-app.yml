@@ -1,0 +1,26 @@
+manifestVersion: 1.1
+id: kidii-samba
+name: Samba
+tagline: Samba file share
+icon: https://svgshare.com/i/ufe.svg
+category: media
+version: "1.0"
+port: 445
+description: >-
+  Samba
+developer: Samba
+website: https://www.plex.tv/
+submitter: kidii
+submission: https://github.com/getumbrel/umbrel-apps/commit/60878f278d544b204d8e7c96240c797f43a9b319
+repo: https://github.com/plexinc/pms-docker
+support: https://www.plex.tv/
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
