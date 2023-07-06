@@ -4,8 +4,8 @@ services:
   samba:
     image: dperson/samba:armhf
     hostname: "kidii-samba-server_1"
-    command: '-s "kidi;/${UMBREL_ROOT}/data/storage/;yes;no;yes;" -p' # USB Hub should have access to anyone for anything
-    #command: '-s "usbhub;/mnt" -s "Bobs Volume;/mnt2;yes;no;no;bob" -u "bob;bobspasswd"'
+    #command: '-s "kidi;/${UMBREL_ROOT}/data/storage/;yes;no;yes;" -p' # USB Hub should have access to anyone for anything
+    command: '-s "kidi;/${UMBREL_ROOT}/data/storage" -s "Bobs Volume;${UMBREL_ROOT}/data/storage;yes;no;no;kidi" -u "kidi;kidi"'
     environment:
       - TZ=Europe/Budapest
       - PUID=1000
