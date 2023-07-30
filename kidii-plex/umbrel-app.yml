@@ -4,11 +4,10 @@ name: Plex
 tagline: Stream Movies & TV Shows
 icon: https://svgshare.com/i/ug8.svg
 category: media
-version: "1.32.4.2"
+version: "1.32.5.7349"
 port: 32400
 description: >-
   Stream movies and TV shows, plus 300+ channels of live TV, instantly, without a subscription. Watch live TV and movies anywhere, from any device, with Plex.
-
 
   Plex uses a server to house your media library and player apps to playback the media. Add, access, and share all the entertainment that matters to you, on almost any device.
 developer: Plex

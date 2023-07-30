@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   server:
-    image: ghcr.io/linuxserver/plex:1.32.4.7195-7c8f9d3b6@sha256:4ccf724a1294be01c566481ed7c7d9b29708a22c522731b48e099631cc12a4a4
+    image: ghcr.io/linuxserver/plex:1.32.5.7349-8f4248874@sha256:78704387c81e54852011c97a28d392214b5d90432c720228b94cd5e71dc4b537
     restart: on-failure
     hostname: "kidii-plex-server_1"
     environment:
