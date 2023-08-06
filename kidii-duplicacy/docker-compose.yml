@@ -17,4 +17,5 @@ services:
       - ${APP_DATA_DIR}/data/config:/config
       - ${APP_DATA_DIR}/data/cache:/cache
       - ${APP_DATA_DIR}/data/logs:/logs
+      - ${UMBREL_ROOT}/data/storage/timemachine:/timemachine
     restart: on-failure

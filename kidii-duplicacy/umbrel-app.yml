@@ -1,10 +1,10 @@
-manifestVersion: 1.0
+manifestVersion: 1.1
 id: kidii-duplicacy
 name: Duplicacy
 tagline: A new generation cross-platform cloud backup tool
 icon: https://i.imgur.com/F1bsufM.png
 category: media
-version: "1.0"
+version: "1.1"
 port: 3875
 description: >-
   Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
