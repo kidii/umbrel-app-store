@@ -5,7 +5,7 @@ services:
     image: dperson/samba:latest
     hostname: "kidii-samba-server_1"
     #command: '-s "kidi;/${UMBREL_ROOT}/data/storage/;yes;no;yes;" -p' # USB Hub should have access to anyone for anything
-    command: '-s "Umbrel - Pi 4;/downloads;yes;no;no;${SMB_USER} -s "Time Machine - Pi 4;/timemachine;yes;no;no;${SMB_USER}" -u "${SMB_USER};${SMB_PASSWORD}" -p'
+    command: '-s "Umbrel - Pi 4;/downloads -s "Time Machine - Pi 4;/timemachine;yes;no;no;${SMB_USER}" -u "${SMB_USER};${SMB_PASSWORD}" -p'
     environment:
       - TZ=Europe/Budapest
       - PUID=1000
