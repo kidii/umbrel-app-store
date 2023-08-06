@@ -4,7 +4,7 @@ name: Samba
 tagline: Samba file share
 icon: https://svgshare.com/i/vB5.svg
 category: media
-version: "1.0.3"
+version: "1.0.4"
 port: 445
 description: >-
   Samba
