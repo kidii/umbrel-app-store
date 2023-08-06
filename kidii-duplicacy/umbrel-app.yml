@@ -1,0 +1,27 @@
+manifestVersion: 1.0
+id: kidii-duplicacy
+name: Duplicacy
+tagline: A new generation cross-platform cloud backup tool
+icon: https://i.imgur.com/F1bsufM.png
+category: media
+version: "1.0"
+port: 3875
+description: >-
+  Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
+developer: Duplicacy
+website: https://duplicacy.com
+submitter: kidii
+submission: https://github.com/getumbrel/umbrel-apps/commit/60878f278d544b204d8e7c96240c797f43a9b319
+repo: https://duplicacy.com
+support: https://duplicacy.com
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
