@@ -1,10 +1,10 @@
-manifestVersion: 1.0.4
+manifestVersion: 1.0.6
 id: kidii-samba
 name: Samba
 tagline: Samba file share
 icon: https://svgshare.com/i/vB5.svg
 category: media
-version: "1.0.4"
+version: "1.0.6"
 port: 445
 description: >-
   Samba
